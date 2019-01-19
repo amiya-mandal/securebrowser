@@ -1,0 +1,30 @@
+syntax: glob
+.idea/*
+.cache/*
+.directory
+node_modules
+package-lock.json
+dist
+data/db
+vendor/*
+.lock
+
+runtime/
+web/static/build/babel/node_modules/
+web/assets/*
+*.bkp
+*.zip
+web/temp/
+web/js/node_modules/value-pipe/license
+web/js/node_modules/
+web/js/package-lock.json
+README.txt
+Browser Architecture infographics.pdf
+README.odt
+syntax: regexp
+^.*\orig$
+^.*\.pyc$
+^.*\.tsv$
+^.*\.save$
+^.*\.bkp$
+^.*\.lock$
